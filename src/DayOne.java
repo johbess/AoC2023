@@ -1,7 +1,9 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 
-public class Main {
+public class DayOne {
     public static void main(String[] args) throws IOException {
         FileReader fr = new FileReader("./resources/dayOne/calibrationInput");
         BufferedReader br = new BufferedReader(fr);
